@@ -280,7 +280,7 @@ weapon_class{
 
 weapon{
   id = "travelers_sword",
+  rank = "r1"
   class = "sword",
-  damage = weapon_rank(r1)+weapon_class.sword(damage_modifier)
+  damage = -- I want something like "weapon_rank(r1)+weapon_class.sword(damage_modifier)", not sure of the language
 }
-
